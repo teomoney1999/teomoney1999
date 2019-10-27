@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRACTICE JS</title>
+        <script src='myScript.js'></script>
+    </head>
+    <body>
+        <h2>What Can JavaScript can do?</h2>
+
+        <p>JavaScript can change HTML attribute values</p>
+
+        <p id='demo'>In this case JavaScript change the value of the (source) attribute of an image.</p>
+        
+        <button 
+            onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">
+            Turn on the light
+        </button>
+        <img id='myImage' src='https://www.w3schools.com/js/pic_bulboff.gif' style='width:100px'>
+        <button 
+            onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">
+            Turn off the light
+        </button>
+
+        <button type='button' 
+            onclick="document.getElementById('demo').style.fontSize = '35px'">
+        Click me!!!
+        </button>
+        
+        <button type='button' onclick="firstFunction()">Try it!!!</button>
+        <button type='button' onclick="secondFunction()">Try it again!!!</button>
+        <h1 id="info"> My info</h1>
+        <button type='button' onclick="fullInfo()">Show it to me</button>
+
+        <p id="sample"></p>
+        <p id="sample2"></p>
+        <p id = 'sample3'></p>
+        <p id="sample4"></p>
+        <p id ="sample5"></p>
+        <p id="sample6"></p>
+        <p id="sample7"></p>
+        <p id ="sample8"></p>
+        <p id ="sample9"></p>
+        <p id ="sample10"></p>
+    </body>
+
+    <script>
+        var str = "Apple, Banana, Kiwi"; 
+        var list = ["Apple", "Banana", "Kiwi"]; 
+        var text1 = "Airpod"; 
+        var text2 = "is awesome!"; 
+
+        var text12 = text1.concat(" ", text2);
+
+        // document.getElementById("sample").innerHTML = str.slice(7,13);
+        // document.getElementById("sample2").innerHTML = str.search("Kiwi");
+        // document.getElementById("sample3").innerHTML = stt.indexOf("Banana");
+        document.getElementById("sample4").innerHTML = text1.concat(" ", text2);
+
+        var x = 250299; 
+        //  x.toString();
+        document.getElementById("sample6").innerHTML = x.toString();
+        
+
+        /*Trick to sort an array asecending*/
+        var points = [40,100,1,5,25,10]
+        var display = points.sort(function(a, b){ return a - b});
+
+        document.getElementById("sample8").innerHTML = display;
+
+        document.getElementById("sample9").innerHTML = points.sort(function(a, b){return b - a});
+
+        var cars = [
+            {type:"Volvo", year:2016}, 
+            {type:"Saab", year:2001}, 
+            {type:"BMW", year: 2010}
+        ];
+
+        
+        function myFunction(){
+            cars.sort(function(a, b){ return a.year - b.year});
+            displayCars();
+        }
+
+        function displayCars(){
+            document.getElementById("sample10").innerHTML = 
+                car[0].type + " " + cars[0].year + "<br>" +
+                car[1].type + " " + car[1].year + "<br>" + 
+                car[2].type + " " + car[2].year + "<br>" 
+           }
+    </script>
+</html>
+
