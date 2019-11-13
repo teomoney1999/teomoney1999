@@ -1,0 +1,352 @@
+/*HEADER*/
+.fluid-container.header{
+    border: 1px solid white; 
+    width: 100%; 
+    height: 688px;
+}
+.header-img{
+    position: absolute; 
+    width: 100%;
+    height: 538px;
+}
+.header-container{}
+
+
+
+.contact-function-box{
+    /* border: 1px solid black; */
+    width: 1110px;
+    height: 200px;
+   
+    margin: 40px 0px 0px 140px;
+}
+
+.contact-box{
+    /* border: 1px solid black;  */
+    width: 1110px; 
+    height: 108px;
+    margin-left: 0px !important; 
+    margin-right: 0px !important;
+    border-radius:10px;
+}
+.f-box, .btn-download.function-box{
+    /* border: 1px solid black;  */
+    width: 168px;
+    height: 46px;
+    position: absolute; 
+    right: 148px;
+    bottom: 267px;
+    border-radius:4px;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 300;
+    background: #FFAD01; 
+    color: white;
+}
+.btn-download.function-box{
+  
+    color: white;
+}
+.col-md-6.info-box-container{
+    /* border:1px solid black; */
+    height: 490px;
+    
+    
+}
+.info-box-contain{
+    border: 1px solid white;
+    width: 100%;
+    height: 388px;
+    margin-top:100px;
+    background: #FFFFFF;
+}
+.info-box{
+    text-align: center;
+}
+#a-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+}
+.info-area{
+    margin-top: 120px;
+}
+#name{
+    font-size: 35px; 
+    text-align:center;
+}
+#jobs{
+    font-size:21px;
+    color: #ffad01;
+    text-align:center; 
+}
+ul.info-list{
+    list-style: none;
+    padding-left:0px !important; 
+    margin-top:20px;
+}
+li.info-list-item{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:3px;
+}
+.info-item-detail{
+    font-weight:300; 
+    text-transform: none;
+
+}
+.phone-container, .email-container, .address-container{
+    /* border:1px solid black; */
+    padding-left: 0px !important; 
+    display:flex;
+    background: #FFAD01; 
+    color: #FFFFFF;
+    padding: 30px 20px 20px 30px;
+    padding-left: 40px !important;
+}
+.fa.fa-map-marker, .fa.fa-envelope-o, .fa.fa-phone{
+    font-size: 35px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.card.flex-row.flew-wrap{
+    width: 309px;
+    height: 106px;
+}
+.card-block.px-2{
+    width: 100%; 
+}
+p.card-info{
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    margin-bottom: 0px !important; 
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+ul.icon-list{
+    display: inline-flex; 
+    list-style: none;
+    padding-left: 0px !important;
+    margin-top:10px;
+}
+.fa-pinterest, .fa-linkedin-square, .fa-instagram,.fa-facebook-official,.fa-twitter-square{
+    position: absolute;
+    /* left: 00px; */
+    /* top: 300px; */
+    bottom:38px;
+    color: white;
+}
+/* .fa-pinterest{
+    left:26px;
+}
+.fa-linkedin-square{
+    left:71px;
+}
+.fa-instagram{
+    left: 117px;
+}
+.fa-facebook-official{
+    left: 162px;
+}
+.fa-twitter-square{
+    left:206px;
+} */
+li.icon-list-item{
+    background: #887392;
+    width:35px; 
+    height: 35px;
+    border-radius: 20px;
+    margin-right:10px;
+    display: inline-flex; 
+    padding-left: 12px;
+}
+
+/*SECTION PORTFOLIO-BODY*/
+.portfolio-body{
+    padding-top:100px;
+}
+.portfolio-row{
+    width: 1110px;
+    height: 154px;
+    position: relative;
+    left: 145px;
+}
+/*** col-md-4*/
+#separator{
+    width: 50px;
+    height: 10px;
+    background: #ffad01; 
+    border-radius: 20px;
+    margin: 0px 0px 20px;
+}
+.portfolio-col{
+    
+}
+#portfolio-title{
+    margin: auto 0px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#my-work{
+    text-transform: uppercase;
+    margin: auto 0px;
+    color: #999;
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*** col-md-8*/
+.portfolio-tab-list{
+   
+    padding-top: 60px;
+}
+ul.p-tab-list{
+    list-style: none;
+    display: inline-flex; 
+    padding-left:0px !important; 
+
+
+}
+.p-tab-list-item, .first-p-tab-list-item{
+    text-transform: uppercase;
+    /* padding-left: 20px; */
+    font-weight: 600;
+    font-size: 16px; 
+}
+.p-tab-list-item{
+    padding-left: 20px;
+}
+.p-tab-list-item:hover{
+    color: #FFAD01; 
+}
+.first-p-tab-list-item:hover{
+    color: #ffad01;
+}
+
+/*SECTION ABOUT ME*/
+.about-me{
+    padding-top: 150px;
+    padding-bottom:300px;
+}
+.about-me-row{
+    width: 1110px;
+    height: 154px;
+    position: relative;
+    left: 145px;
+}
+/*** col-md-4*/
+.about-me-col{
+    
+}
+#about-me-title{
+    margin-bottom: 0px !important;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#professional-path{
+    text-transform: uppercase;
+    margin: auto 0px;
+    color: #999;
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/*** col-md-8*/
+.about-me-paragraph{
+    
+}
+.about-me-para{}
+.para{
+    height: 182px;
+    color: #777;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.06rem;
+    -webkit-font-smoothing: antialiased;
+}
+/****** PROGRESS BAR*/
+.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+
+.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
+	padding-bottom: 25px!important; color: #333!important; }
+
+.radial-progress .progressbar-text:after{ content:'%'; }
+
+.radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+
+
+/*** SECTION WORK-EXPERIENCE*/
+.work-experience{
+    padding-top: 100px;
+    background: #28023D;
+    height: 860px;
+}
+.work-experience-row{
+    width: 1110px;
+    height: 154px;
+    position: relative;
+    left: 145px;
+}
+/*** col-md-4*/
+.work-experience-col{
+
+}
+#work-experience-title{
+    margin: 0px;    
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white; 
+}
+#previous-job{
+    text-transform: uppercase;
+    margin: auto 0px;
+    color: #999;
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*** col-md-8*/
+.work-infomation{
+    color: white; 
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.info-job{
+    font-size: 16px;
+    color: #FFAD01; 
+}
+.info-time{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.info-para{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+ul.work-info-list{
+    padding-left: 0px !important;
+    margin-bottom: 40px;
+}
+li.work-info-list-item{
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-weight: 300;
+    list-style: circle;
+    list-style-position: inside; 
+}
